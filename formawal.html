@@ -1,10 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>6701174057</title>
 </head>
 <body>
-silakan isi disini
+	<form action="proses.php" method="POST" enctype="multipart/form-data">
+		<table >
+			<tr>
+				<td>
+					<label>HOBBY :</label>
+				</td>
+				<td>
+					<input type="checkbox" name="hobby[]" value="Menulis">Menulis
+					<input type="checkbox" name="hobby[]" value="Membaca">Membaca
+					<input type="checkbox" name="hobby[]" value="Makan">Makan
+					<input type="checkbox" name="hobby[]" value="Tidur">Tidur
+					<input type="checkbox" name="hobby[]" value="Belajar">Belajar<br>
+					<input type="checkbox" name="hobby[]" value="Berenang">Berenang
+					<input type="checkbox" name="hobby[]" value="Basket">Basket
+					<input type="checkbox" name="hobby[]" value="Badminton">Badminton
+					<input type="checkbox" name="hobby[]" value="Nonton">Nonton
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Upload Foto :</label>
+				</td>
+				<td>
+					<input type="file" name="foto">
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>
+					<input type="submit" name="submit" value="submit">
+				</td>
+			</tr>
 
+		</table>
+		
+		
+	</form>
 </body>
 </html>
